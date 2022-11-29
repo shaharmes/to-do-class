@@ -175,8 +175,9 @@ label[for='toggle-all'] {
 }
 
 .todo-list li .toggle {
+	display: visible;
 	text-align: center;
-	width: 40px;
+	width: 60px;
 	/* auto, since non-WebKit browsers doesn't support input styling */
 	height: auto;
 	position: absolute;
@@ -184,8 +185,8 @@ label[for='toggle-all'] {
 	bottom: 0;
 	margin: auto 0;
 	border: none; /* Mobile Safari */
-	-webkit-appearance: none;
-	appearance: none;
+	/* -webkit-appearance: none;
+	appearance: none; */
 }
 
 .todo-list li .toggle:after {
