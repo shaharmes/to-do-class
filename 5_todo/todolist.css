@@ -35,6 +35,11 @@ body {
 	font-weight: 300;
 }
 
+body .lineThrough {
+	text-decoration: line-through;
+	color: #ccc;
+  }
+
 button,
 input[type="checkbox"] {
 	outline: none;
@@ -356,7 +361,7 @@ html .clear-completed:active {
 	}
 
 	.todo-list li .toggle {
-		height: 40px;
+		height: 25px;
 	}
 
 	.toggle-all {
